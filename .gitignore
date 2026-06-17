@@ -1,0 +1,13 @@
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+Rplots.pdf
+
+# Generated output (recreated by R/05_results_plots.R)
+figures/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
