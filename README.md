@@ -46,7 +46,7 @@ The following updates are repeated until the variational mean converges. Each up
 ```math
 \begin{aligned}
 A_{q(\sigma^2)} &= A + \tfrac{n}{2} \quad\text{(constant)}\\
-B_{q(\sigma^2)} &= B + \tfrac12\Big[(\mathbf y - \mathbf X\boldsymbol\mu_{q(\beta)})^\top(\mathbf y - \mathbf X\boldsymbol\mu_{q(\beta)}) + \operatorname{tr}\big(\mathbf X^\top\mathbf X\,\boldsymbol\Sigma_{q(\beta)}\big)\Big]\\
+B_{q(\sigma^2)} &= B + \tfrac12\Big[(\mathbf y - \mathbf X\boldsymbol\mu_{q(\beta)})^\top(\mathbf y - \mathbf X\boldsymbol\mu_{q(\beta)}) + \mathrm{tr}\big(\mathbf X^\top\mathbf X\,\boldsymbol\Sigma_{q(\beta)}\big)\Big]\\
 \boldsymbol\Sigma_{q(\beta)} &= \Big(\tfrac{A_{q(\sigma^2)}}{B_{q(\sigma^2)}}\mathbf X^\top\mathbf X + \boldsymbol\Sigma_\beta^{-1}\Big)^{-1}\\
 \boldsymbol\mu_{q(\beta)} &= \boldsymbol\Sigma_{q(\beta)}\Big(\tfrac{A_{q(\sigma^2)}}{B_{q(\sigma^2)}}\mathbf X^\top\mathbf y + \boldsymbol\Sigma_\beta^{-1}\boldsymbol\mu_\beta\Big)
 \end{aligned}
